@@ -35,7 +35,7 @@
             // maximSplashScreen
             // 
             this.maximSplashScreen.ApplicationIconImage = null;
-            this.maximSplashScreen.ApplicationName = "MAX32630FTHR I2C COM PORT ";
+            this.maximSplashScreen.ApplicationName = "MAX32630FTHR RAW I2C INTERFACE";
             this.maximSplashScreen.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.maximSplashScreen.BackColor = System.Drawing.Color.White;
             this.maximSplashScreen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;

@@ -51,7 +51,7 @@ using System.Collections.Generic;
 using System.IO.Ports;
 using System.Windows.Forms;
 
-namespace GenericGUIProject
+namespace RawI2CInterface
 {
     public partial class Mainform : Form
     {

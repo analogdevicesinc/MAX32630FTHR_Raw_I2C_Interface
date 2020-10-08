@@ -35,7 +35,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace GenericGUIProject
+namespace RawI2CInterface
 {
     static class Program
     {
