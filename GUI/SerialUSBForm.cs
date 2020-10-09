@@ -188,6 +188,12 @@ namespace RawI2CInterface
                     //   MessageBox.Show(ex.Message);
                     ex.Data.Clear();
                 }
+                catch (System.ArgumentException ex)
+                {
+                    ex.Data.Clear();
+                    MessageBox.Show("Please select the Valid COM port and click connect", "Error: COM Port Not Selected");
+                    return;
+                }
             }
             else if (myserialport.IsOpen)
             {
