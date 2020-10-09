@@ -12,13 +12,13 @@ These instructions describe the program connected to an I2C temperature sensor, 
 	-**Single byte WRITE mode:** LOW_ALARM_LSB Register (READ and WRITE)
 
 ### Splash Screen
-![Splash Screen](/screenshots/splash_screen.png)
+![Splash Screen](/GUI/screenshots/splash_screen.png)
 
 ### Serial USB COM PORT Selection Screen
-![COM Port Selection](/screenshots/serial_connect.png)
+![COM Port Selection](/GUI/screenshots/serial_connect.png)
 
 ### Main Window
-![Main Form Screen](/screenshots/main_form.png)
+![Main Form Screen](/GUI/screenshots/main_form.png)
 
 ## Functionality
 1.	The program initializes and sets up I2C Master1 of MAX32630FTHR
