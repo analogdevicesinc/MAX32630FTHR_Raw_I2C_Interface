@@ -23,9 +23,9 @@ These instructions describe the program connected to an I2C temperature sensor, 
 2.	Program should be able to blink a blue LED light while it is running
 
 3.	Program should be able to WRITE single byte to: 
--a.	Input: 	SlaveAddress
--b.	Input: 	RegisterAddress
--c.	Input: 	Value
+- a.  Input: 	SlaveAddress
+- b.	Input: 	RegisterAddress
+- c.	Input: 	Value
 Return 0 on successful write;  “ACK” string output screen 
 Return 1 on failure write; “NACK” string output screen
 
