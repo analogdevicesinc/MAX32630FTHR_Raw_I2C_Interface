@@ -25,16 +25,16 @@ These instructions describe the program connected to an I2C temperature sensor, 
 3.	The GUI program offers the ability to WRITE single byte to: 
     - Input: 	SlaveAddress
     - Input: 	RegisterAddress
-    - Input: 	Value
-Return 0 on successful write;  “ACK” string output screen 
+    - Input: 	Value <br>
+Return 0 on successful write;  “ACK” string output screen <br>
 Return 1 on failure write; “NACK” string output screen
 
 4.	The GUI can READ N-bytes from:
     - Input: 	SlaveAddress
     -	Input: 	RegisterAddress
     -	Input: 	Number of Byte
-    -	Output:  Value
-Return 0 on successful write;  “ACK” string output screen 
+    -	Output:  Value <br>
+Return 0 on successful write;  “ACK” string output screen <br>
 Return 1 on failure write; “NACK” string output screen
 
 5.	Program should be able to process Input and Output from PC serial COM Port
