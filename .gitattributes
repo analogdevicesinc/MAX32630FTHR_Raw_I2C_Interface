@@ -5,3 +5,6 @@
 *.manifest binary
 *.application binary
 *.exe binary
+*.png binary
+*.ico binary
+*.dll binary
