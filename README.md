@@ -7,9 +7,9 @@ This document discusses using the Graphic User Interface(GUI) for the MAX32630FT
 The GUI for the MAX32630FTHR Raw I2C Interface application was developed to provide an easy-to-use utility to test I2C chips in the field using the MAX32630FTHR board's I2C Master 1 I2C port. 
 
 These instructions describe the program connected to an I2C temperature sensor, the MAX30208.  
-	- **Single byte READ mode:** PART_ID Register (READ ONLY)
-	- **Double byte READ mode:** FiFO_Data Register (READ ONLY)
-	- **Single byte WRITE mode:** LOW_ALARM_LSB Register (READ and WRITE)
+- **Single byte READ mode:** PART_ID Register (READ ONLY)
+- **Double byte READ mode:** FiFO_Data Register (READ ONLY)
+- **Single byte WRITE mode:** LOW_ALARM_LSB Register (READ and WRITE)
 
 ## Download
 - Click the "Clone or Download" button and click "Download ZIP" above (from the main GITHUB repo page). After the download finishes, unzip the archive to the directory of choice. All the files needed to run the board can be found in the "firmware" and GUI directories. 
