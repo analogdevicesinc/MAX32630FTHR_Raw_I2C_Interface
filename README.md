@@ -18,25 +18,25 @@ These instructions describe the program connected to an I2C temperature sensor, 
 ### Main Form Screen
 
 ## Functionality
-1.	Program should be able to initialize and setup I2C Master1 of MAX32630FTHR
+1.	The program initializes and sets up I2C Master1 of MAX32630FTHR
 
-2.	Program should be able to blink a blue LED light while it is running
+2.	The program blinks a blue LED light while it is running
 
-3.	Program should be able to WRITE single byte to: 
-- a.  Input: 	SlaveAddress
-- b.	Input: 	RegisterAddress
-- c.	Input: 	Value
+3.	The GUI program offers the ability to WRITE single byte to: 
+    - Input: 	SlaveAddress
+    - Input: 	RegisterAddress
+    - Input: 	Value
 Return 0 on successful write;  “ACK” string output screen 
 Return 1 on failure write; “NACK” string output screen
 
-4.	Program should be able to READ N-byte from:
--a.	Input: 	SlaveAddress
--b.	Input: 	RegisterAddress
--c.	Input: 	Number of Byte
--d.	Output: Value
+4.	The GUI can READ N-bytes from:
+    - Input: 	SlaveAddress
+    -	Input: 	RegisterAddress
+    -	Input: 	Number of Byte
+    -	Output:  Value
 Return 0 on successful write;  “ACK” string output screen 
 Return 1 on failure write; “NACK” string output screen
 
 5.	Program should be able to process Input and Output from PC serial COM Port
--a.	Maxim I2C COM Port GUI
+    - Maxim I2C COM Port GUI
 
