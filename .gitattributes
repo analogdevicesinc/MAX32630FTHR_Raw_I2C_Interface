@@ -3,3 +3,5 @@
 *.vsto binary
 *.deploy binary
 *.manifest binary
+*.application binary
+*.exe binary
